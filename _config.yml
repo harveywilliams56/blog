@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Harvey Williams
+title: hw562
 email: not-my-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   <description>
@@ -26,6 +26,15 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://harveywilliams56.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  harveywilliams56
+
+
+#Fields that minima uses 
+author: Harvey Williams
+linkedin_username: harvey-williams-930754171
+
+#New fields
+copyright: Harvey Williams
+title-logo: /images/title-logo.png
 
 # Build settings
 # Removed minima theme as it is now a regular theme

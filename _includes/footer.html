@@ -14,10 +14,14 @@
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
-            </li>
+           </li>
+
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
+	    {%- if site.copyright -%}
+	    <li>&copy; {{ site.copyright }} {{ 'now' | date: "%Y" }}</li>
+	    {%- endif -%}
         </ul>
       </div>
 
